@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: arnablogs/tetrisv1:10
+        image: arnablogs/tetrisv1:3
         ports:
         - containerPort: 3000
 ---
