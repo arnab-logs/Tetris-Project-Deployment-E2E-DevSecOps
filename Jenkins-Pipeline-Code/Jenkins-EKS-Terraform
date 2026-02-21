@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout from Git') {
             steps {
-                git branch: 'master', url: 'https://github.com/arnab-logs/Tetris-Project-Deployment-E2E-DevSecOps.git'
+                git branch: 'main', url: 'https://github.com/arnab-logs/Tetris-Project-Deployment-E2E-DevSecOps.git'
             }
         }
         stage('Initializing Terraform') {
